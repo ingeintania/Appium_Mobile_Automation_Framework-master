@@ -1,0 +1,39 @@
+2025-07-17 10:00:10 | [invokeApp] | (ShopeePayTests.java:32) | Trying to create appium driver for -AndroidEmulator
+2025-07-17 10:00:14 | [invokeApp] | (ShopeePayTests.java:47) | --------------------------------------------------------------------------
+2025-07-17 10:00:14 | [invokeApp] | (ShopeePayTests.java:48) | Appium driver created for - AndroidEmulator
+2025-07-17 10:00:14 | [invokeApp] | (ShopeePayTests.java:49) | Targeting app - com.shopeepay.id
+2025-07-17 10:00:14 | [invokeApp] | (ShopeePayTests.java:50) | --------------------------------------------------------------------------
+2025-07-17 10:00:14 | [isDisplayed] | (AppiumUserSimulations.java:74) | Trying to check if element is displayed with locator - By.xpath: //android.widget.TextView[@resource-id="com.shopeepay.id:id/btn_signup_with_mobile_number"]
+2025-07-17 10:00:14 | [isDisplayed] | (AppiumUserSimulations.java:80) | Element found
+2025-07-17 10:00:14 | [click] | (AppiumUserSimulations.java:43) | Trying to click element with locator - By.xpath: //android.widget.TextView[@resource-id="com.shopeepay.id:id/btn_signup_with_mobile_number"]
+2025-07-17 10:00:14 | [wait_until_MobileElementIs_Clickable] | (AppiumUserSimulations.java:539) | 15 secs - Waiting for element using -By.xpath: //android.widget.TextView[@resource-id="com.shopeepay.id:id/btn_signup_with_mobile_number"]
+2025-07-17 10:00:14 | [isDisplayed] | (AppiumUserSimulations.java:74) | Trying to check if element is displayed with locator - By.xpath: //android.widget.TextView[@text="Daftar dengan No. HP"]
+2025-07-17 10:00:14 | [isDisplayed] | (AppiumUserSimulations.java:83) | Element not found 😱
+2025-07-17 10:00:14 | [isDisplayed] | (AppiumUserSimulations.java:74) | Trying to check if element is displayed with locator - By.xpath: //android.widget.TextView[@text="Kode OTP akan dikirim ke nomor ini"]
+2025-07-17 10:00:16 | [isDisplayed] | (AppiumUserSimulations.java:80) | Element found
+2025-07-17 10:00:16 | [isDisplayed] | (AppiumUserSimulations.java:74) | Trying to check if element is displayed with locator - AppiumBy.className: android.widget.EditText
+2025-07-17 10:00:16 | [isDisplayed] | (AppiumUserSimulations.java:80) | Element found
+2025-07-17 10:00:16 | [isDisplayed] | (AppiumUserSimulations.java:74) | Trying to check if element is displayed with locator - AppiumBy.id: com.shopeepay.id:id/tvSignupReminder
+2025-07-17 10:00:16 | [isDisplayed] | (AppiumUserSimulations.java:80) | Element found
+2025-07-17 10:00:16 | [isDisplayed] | (AppiumUserSimulations.java:74) | Trying to check if element is displayed with locator - AppiumBy.id: com.shopeepay.id:id/text
+2025-07-17 10:00:16 | [isDisplayed] | (AppiumUserSimulations.java:83) | Element not found 😱
+2025-07-17 10:00:16 | [isDisplayed] | (AppiumUserSimulations.java:74) | Trying to check if element is displayed with locator - AppiumBy.id: com.shopeepay.id:id/btnContinue
+2025-07-17 10:00:16 | [isDisplayed] | (AppiumUserSimulations.java:80) | Element found
+2025-07-17 10:00:16 | [tearDown] | (ShopeePayTests.java:59) | Tearing down driver
+2025-07-17 10:00:16 | [invokeApp] | (ShopeePayTests.java:32) | Trying to create appium driver for -AndroidEmulator
+2025-07-17 10:00:19 | [invokeApp] | (ShopeePayTests.java:47) | --------------------------------------------------------------------------
+2025-07-17 10:00:19 | [invokeApp] | (ShopeePayTests.java:48) | Appium driver created for - AndroidEmulator
+2025-07-17 10:00:19 | [invokeApp] | (ShopeePayTests.java:49) | Targeting app - com.shopeepay.id
+2025-07-17 10:00:19 | [invokeApp] | (ShopeePayTests.java:50) | --------------------------------------------------------------------------
+2025-07-17 10:00:19 | [clear] | (AppiumUserSimulations.java:59) | Trying to clear element contents from element with locator - AppiumBy.className: android.widget.EditText
+2025-07-17 10:00:19 | [wait_until_MobileElementIs_Clickable] | (AppiumUserSimulations.java:539) | 15 secs - Waiting for element using -AppiumBy.className: android.widget.EditText
+2025-07-17 10:00:19 | [sendKeys] | (AppiumUserSimulations.java:48) | Trying to send keys  - 085156313854
+2025-07-17 10:00:19 | [sendKeys] | (AppiumUserSimulations.java:49) | To locator - AppiumBy.className: android.widget.EditText
+2025-07-17 10:00:19 | [wait_until_MobileElementIs_Clickable] | (AppiumUserSimulations.java:539) | 15 secs - Waiting for element using -AppiumBy.className: android.widget.EditText
+2025-07-17 10:00:20 | [click] | (AppiumUserSimulations.java:43) | Trying to click element with locator - AppiumBy.id: com.shopeepay.id:id/btnContinue
+2025-07-17 10:00:20 | [wait_until_MobileElementIs_Clickable] | (AppiumUserSimulations.java:539) | 15 secs - Waiting for element using -AppiumBy.id: com.shopeepay.id:id/btnContinue
+2025-07-17 10:00:22 | [isDisplayed] | (AppiumUserSimulations.java:89) | Trying to check if element is displayed with locator - By.xpath: //android.widget.TextView[1]
+2025-07-17 10:00:22 | [isDisplayed] | (AppiumUserSimulations.java:100) | Element found
+2025-07-17 10:00:22 | [getText] | (AppiumUserSimulations.java:54) | Trying to get text from element with locator - By.xpath: //android.widget.TextView[1]
+2025-07-17 10:00:22 | [wait_until_MobileElementIs_Visible] | (AppiumUserSimulations.java:546) | 15 secs - Waiting for element using -By.xpath: //android.widget.TextView[1]
+2025-07-17 10:00:22 | [tearDown] | (ShopeePayTests.java:59) | Tearing down driver

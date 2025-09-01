@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TEST SUITE" verbose="10">
+
+    
+
+    <!-- <listeners> -->
+        <!-- <listener class-name="com.company.project.utilities.retry.RetryListener"/> -->
+    <!-- </listeners> -->
+
+    <test name=" UI TESTS">
+        <parameter name="runOn" value="AndroidEmulator"/>    <!--# AndroidEmulator or AndroidDevice -->
+        <parameter name="deviceName" value="emulator-5554"/>
+        <parameter name="appPackage" value="com.shopeepay.id"/>
+        <parameter name="appActivity" value="com.shopee.app.ui.home.HomeActivity_"/>
+        <classes>
+            <class name="com.company.project.android.shopeepay.ShopeePayTests"/>
+        </classes>
+    </test>
+
+</suite>
