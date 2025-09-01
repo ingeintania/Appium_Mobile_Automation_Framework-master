@@ -35,7 +35,3 @@ This framework streamlines your mobile app testing with Appium, offering compati
 * Utilize the utility functions in `AppiumUserSimulations.java` for interacting with elements.
 * Manage Appium driver instances using `AppiumDriverFactory.java`.
 * Leverage parameterized TestNG XML files for flexible test configuration.
-
-
-
-# web-automation-framework-master
